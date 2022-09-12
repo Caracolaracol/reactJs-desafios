@@ -12,17 +12,37 @@ body {
   min-height:100vh;  
   max-height: 100vh;
   box-sizing: border-box;
-  background-color:rgb(196, 201, 190);
+  background-color:rgb(186, 187, 186);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
   min-height:100vh;  
   max-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
+@font-face {
+  font-family: 'Retroica';
+  src: url('./fonts/Retroica.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Garet-Heavy';
+  src: url('./fonts/Garet-Heavy.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Garet-Book';
+  src: url('./fonts/Garet-Book.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}

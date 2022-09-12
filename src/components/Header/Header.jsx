@@ -1,7 +1,7 @@
 
 import logo from '../../images/logo1.png'
 import './header.css';
-import Navbar from '../Navbar/NavBar';
+
 
 function Header() {
     return (
@@ -16,9 +16,10 @@ function Header() {
 
                     </div>
                 </div>
-                <Navbar />
+                
 
             </header>
+            
         </div>
     );
 }

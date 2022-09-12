@@ -4,6 +4,8 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import './NavBar.css'
+import CartWidget from './CartWidget';
+import ExpandMoreSharpIcon from '@mui/icons-material/ExpandMoreSharp';
 
 // MATERIAL UI MENU
 function BasicMenu(props) {
@@ -35,7 +37,7 @@ function BasicMenu(props) {
                     onMouseEnter={handleClick}
                     
                 >
-                    <h2 className="nav__titles">{props.nombre}</h2>
+                    <h2 className="nav__titles">{props.nombre}</h2> <ExpandMoreSharpIcon/>
                 </Button>
                 <Menu
                     id="basic-menu"
@@ -77,7 +79,7 @@ function BasicMenu(props) {
                     onMouseEnter={handleClick}
                     
                 >
-                    <h2 className="nav__titles">{props.nombre}</h2>
+                    <h2 className="nav__titles">{props.nombre}</h2> <ExpandMoreSharpIcon/>
                 </Button>
                 <Menu
                     id="basic-menu"
@@ -148,6 +150,7 @@ function Navbar() {
                 <div className="nav__sections">
                     <h2 className="nav__titles">Sobre nosotros</h2>
                 </div>
+                <CartWidget />
             </nav>
         </div>
     )

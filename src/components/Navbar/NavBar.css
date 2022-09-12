@@ -1,11 +1,12 @@
 .nav__titles {
-    font-family: 'Times New Roman', Times, serif !important;
+    font-family: 'Garet-Book' !important;
+    
     text-decoration: none;
     font-size: 1rem;
     padding: 0px;
     color:rgb(74, 158, 70);
     text-transform: none;
-    letter-spacing: 0.5px !important;
+    letter-spacing: 1px !important;
     line-height: 1.5;
 }
 #basic-button{
@@ -24,4 +25,13 @@
     font-size: 1rem;
     padding: 0px;
     color:rgb(74, 158, 70);
+}
+.cart-widget__container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+}
+.cart-widget__counter > h2 {
+    font-size: 1.2rem;
 }
