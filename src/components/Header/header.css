@@ -1,55 +1,57 @@
-.App {
+.header-container {
   position: relative;
   height: 10rem;
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color:rgb(9, 18, 0);
+  background-color:rgb(200, 202, 199);
   box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.2);
 }
 
 /* HEADER */
-.App-header {
+.header {
+  position: fixed;
   text-align: center;
-  /* width: 70%; */
   height: 10rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   min-width: 60rem;
-  
-}
-
-/* LOGO CONTAINER*/
-.App-header__logo-container {
-  height: 12rem;
-  display: flex;
-  
-}
-.App-logo {
-  height: 6rem;
-  pointer-events: none;
-}
-
-/* NAV BAR */
-.App-header__nav-container {
-  position: absolute;
-  height: 4rem;
-  width: 60rem;
-  align-self: center;
-  background-color: rgb(9, 18, 0);
-  border-radius: 4px;
-  top: 7rem;
-  display: flex;
-  box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.2);
-}
-
-.App-header__nav {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  text-align: center;
-  align-content: center;
   align-items: center;
 }
 
+/* LOGO CONTAINER*/
+.header__logo-container {
+  height: 12rem;
+  display: flex;
+  width: 60rem;
+}
+
+.header__logo {
+  height: 6rem;
+  display:block;
+  opacity: 1;
+}
+
+.header__logo2 {
+  position: absolute;
+  height: 4.7rem;
+  left: 24.5vw;
+  opacity: 0;
+}
+
+@keyframes desaparecerlogo {
+  from {opacity: 1; }
+  to {opacity: 0; display: none;}
+}
+
+@keyframes aparecerlogo {
+  from {opacity: 0; }
+  to {opacity: 1; }
+}
+
+@keyframes aparecerespiral {
+  0% {opacity: 0; rotate: 0deg;}
+  4% {opacity: 1;}
+  100% {rotate: 390deg;}
+}

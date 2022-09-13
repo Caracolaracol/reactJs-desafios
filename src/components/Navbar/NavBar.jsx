@@ -24,7 +24,6 @@ function BasicMenu(props) {
         count = count + 1
     }
     const length = count - 1
-    console.log(length)
     if (length === 5) {
         return (
             <div>
@@ -72,6 +71,7 @@ function BasicMenu(props) {
             <div>
                 <Button
                     id="basic-button"
+                    className="nav__titles"
                     aria-controls={open ? 'basic-menu' : undefined}
                     aria-haspopup="true"
                     aria-expanded={open ? 'true' : undefined}
@@ -83,6 +83,7 @@ function BasicMenu(props) {
                 </Button>
                 <Menu
                     id="basic-menu"
+                    className="nav__titles"
                     anchorEl={anchorEl}
                     open={open}
                     anchorOrigin={{
@@ -100,7 +101,7 @@ function BasicMenu(props) {
                     }}
                     onMouseLeave={handleClose}
                 >
-                    <MenuItem onClick={handleClose}>{props.titulo1}</MenuItem>
+                    <MenuItem id="d" onClick={handleClose}>{props.titulo1}</MenuItem>
                     <MenuItem onClick={handleClose}>{props.titulo2}</MenuItem>
                     <MenuItem onClick={handleClose}>{props.titulo3}</MenuItem>
                     <MenuItem onClick={handleClose}>{props.titulo4}</MenuItem>
@@ -140,15 +141,15 @@ function Navbar() {
                 </div>
 
                 <div className="nav__sections">
-                    <h2 className="nav__titles" >Envíos</h2>
+                    <a href="#"><h2 className="nav__titles">Envíos</h2></a>
                 </div>
 
                 <div className="nav__sections">
-                    <h2 className="nav__titles">Ubicación</h2>
+                    <a href="#"><h2 className="nav__titles">Ubicación</h2></a>
                 </div>
 
                 <div className="nav__sections">
-                    <h2 className="nav__titles">Sobre nosotros</h2>
+                    <a href="#"><h2 className="nav__titles">Sobre nosotros</h2></a>
                 </div>
                 <CartWidget />
             </nav>
