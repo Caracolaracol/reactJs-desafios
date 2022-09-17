@@ -6,7 +6,7 @@ function ItemListContainer(props) {
         <div className="item-list__container">
             <main className="item-list__main">
                 <h1>{props.greeting}</h1>
-                <Itemcount />
+                <Itemcount stock="5" initial="1" />
             </main>
         </div>
     )
