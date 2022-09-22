@@ -3,6 +3,7 @@ import AddIcon from '@mui/icons-material/Add';
 import './Itemcount.css'
 import React, {useState} from 'react';
 
+let cartCount = 0
 
 function Itemcount(props) {
     let [count, setCount] = useState(parseInt(props.initial))
@@ -21,6 +22,8 @@ function Itemcount(props) {
 
     function onAddToCart() {
         console.log('Agregados ' + count + ' items al carrito')
+        cartCount = cartCount + 1
+        console.log(cartCount)
     }
     return (
         <div className='item-count__container'>

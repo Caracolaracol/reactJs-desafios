@@ -22,6 +22,7 @@ function BasicMenu(props) {
     let count = 0
     for (let properties in props) {
         count = count + 1
+        console.log(properties)
     }
     const length = count - 1
     if (length === 5) {

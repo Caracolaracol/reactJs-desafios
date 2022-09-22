@@ -1,6 +1,7 @@
 .item-count__container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 8rem;
 
 }
@@ -11,14 +12,33 @@
     border-style: solid;
     border-radius: 6px;
     border-width: 1px;
+    width: 6rem;
+    
 }
+.item-count__number {
+    color:rgb(81, 86, 72);
+
+}
+.item-count__btn {
+    border-style: none;
+    border-width: 0px;
+    background-color: transparent;
+    color:rgb(81, 86, 72);
+}
+
+
 
 .item-count__add-container {
     display: flex;
     justify-content: center;
 }
-
-.item-count__btn, .item-count__btn-add {
+.item-count__btn-add {
+    background-color: rgba(67, 116, 38, 0.116) !important;
     border-style: none;
     border-width: 0px;
+    border-radius: 7px;
+    padding: 2px;
+}
+.item-count__btn-add:hover {
+    background-color: rgba(85, 196, 21, 0.237) !important;
 }

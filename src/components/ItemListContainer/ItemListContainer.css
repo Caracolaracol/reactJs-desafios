@@ -1,12 +1,20 @@
 .item-list__container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - (10rem));
+}
+
+.item-list__outer {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.item-list__main {
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 68rem;
-    height: 88.5vh;
+
+.item-list__inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
 }
