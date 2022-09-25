@@ -33,12 +33,23 @@
     justify-content: center;
 }
 .item-count__btn-add {
-    background-color: rgba(67, 116, 38, 0.116) !important;
+    background-color: rgba(122, 181, 66, 0.896) ;
     border-style: none;
     border-width: 0px;
     border-radius: 7px;
-    padding: 2px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 14rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
 }
 .item-count__btn-add:hover {
-    background-color: rgba(85, 196, 21, 0.237) !important;
+    background-color: rgba(85, 196, 21, 0.973);
+}
+
+.item-count__cart-icon {
+    width: 25px;
 }

@@ -7,9 +7,11 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "arveja",
         tipo: "masa muscular",
-        img: './productos/nitropeanatural1kg02.png',
+        img: './assets/products/nitropeanatural1kg02.png',
         detail:
             "La versión sin sabor añadido de una de nuestras proteínas más aclamadas NitroPea. Esta versión natural contiene aún más proteína por porción y no contiene cacao, solo el sabor puro de la proteína de arveja ",
+        extradetail:"3 Cucharadas colmadas(30gr). Consumir 1 a 3 porciones diarias dependiendo de tus necesidades y objetivos",
+        ingredientes: "proteína aislada de arvejas amarillas, Saborizante Limón. Formato de 1 kg, 33 porciones de 26 grs de proteína."
     },
     {
         id: 2,
@@ -19,9 +21,13 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "arveja",
         tipo: "masa muscular",
-        img: './productos/proteinaarbejalimon1kg02.png',
+        img: './assets/products/proteinaarbejalimon1kg02.png',
+        imgaminograma: "./assets/products/aminogramapea.jpg",
+        imginfonutri: "./assets/products/nutripea.jpg",
         detail:
-            "Pea Limón es un aislado de proteínas, un extracto proteico directo del alimento natural mezclada con saborizante Limón, el mismo que por años ha sido el refrescante sabor de productos nuestros cómo BCAA, Arginina, Plant Energy, entre otros, aunque no había sido usado con las proteínas y ahora puedes ver y sentir su resultado! Tiene un toque ácido obviamente pero algo de dulce también, un equilibrio muy agradable para consumir una proteína vegetal solo con agua o mezclado con otros ingredientes. ",
+            "Natural Lemon Pea Protein es un aislado de proteínas, un extracto proteico directo del alimento natural mezclada con saborizante Limón, el mismo que por años ha sido el refrescante sabor de productos nuestros cómo BCAA, Arginina, Plant Energy, entre otros, aunque no había sido usado con las proteínas y ahora puedes ver y sentir su resultado! Tiene un toque ácido obviamente pero algo de dulce también, un equilibrio muy agradable para consumir una proteína vegetal solo con agua o mezclado con otros ingredientes. ",
+        extradetail:"3 Cucharadas colmadas(30gr). Consumir 1 a 3 porciones diarias dependiendo de tus necesidades y objetivos",
+        ingredientes: "proteína aislada de arvejas amarillas, Saborizante Limón. Formato de 1 kg, 33 porciones de 26 grs de proteína."
     },
     {
         id: 3,
@@ -31,9 +37,11 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "arveja",
         tipo: "masa muscular",
-        img: './productos/proteinaarvejacacao1kg01.png',
+        img: './assets/products/proteinaarvejacacao1kg01.png',
         detail:
             "Una muy buena combinación de proteína orgánica de arvejas amarillas con cacao orgánico, hacen de esta proteína una gran alternativa para quienes buscan un batido protéico sin grasa, azúcares, colorantes, de suave digestión,  buen sabor, y sin los alérgenos más conocidos. Ideal para fines deportivos o sólo para reforzar la dieta, es un alimento que se puede integrar a diario en cualquier momento, incluyendo la noche, al ser liviano en calorías pero denso en nutrientes, sobre todo proteína y hierro. ",
+        extradetail:"3 Cucharadas colmadas(30gr). Consumir 1 a 3 porciones diarias dependiendo de tus necesidades y objetivos",
+        ingredientes: "proteína aislada de arvejas amarillas, Saborizante Limón. Formato de 1 kg, 33 porciones de 26 grs de proteína."
     },
     {
         id: 4,
@@ -43,7 +51,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "arveja",
         tipo: "masa muscular",
-        img: './productos/proteinaarvejabanana1kg01.png',
+        img: './assets/products/proteinaarvejabanana1kg01.png',
         detail:
             "Luna muy buena combinación de proteína orgánica de arvejas amarillas con plátano liofilizado y stevia, hacen de esta proteína una gran alternativa para quienes buscan un batido protéico sin grasa, azúcares, colorantes, de suave digestión,  buen sabor, y sin los alérgenos más conocidos. Ideal para fines deportivos o sólo para reforzar la dieta, es un alimento que se puede integrar a diario en cualquier momento, incluyendo la noche, al ser liviano en calorías pero denso en nutrientes, sobre todo proteína y hierro. 1 kg, 33 porciones. Ingredientes: Proteína aislada de arveja, banana liofilizada, stevia, goma guar.",
     },
@@ -55,9 +63,10 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "arveja",
         tipo: "masa muscular",
-        img: './productos/proteinaarvejanatural1kg01.png',
+        img: './assets/products/proteinaarvejanatural1kg01.png',
         detail:
             "Proteína aislada de arvejas amarillas, es una fuente de proteínas distinta a las más conocidas, y 100% vegetal.No tiene carbohidratos, grasas, ni azúcares. Tampoco saborizantes, colorantes, o edulcorante alguno. Se debe mezclar con jugos, frutas o simplemente agua y consumir. También puede ser usada para cocinar al tener un sabor neutral.Las proteínas en estado puro son recomendadas para quienes buscan concentración máxima de proteína, sin importarles el sabor. Si bien tiene un sabor neutral, no es recomendado para quienes buscan una proteína que quede rica sólo con agua, ya que se obtiene su mejor sabor al mezclar con frutas o leches vegetales. Ingredientes: proteína aislada de arvejas amarillas Formato de 1 kg, 33 porciones de 26 grs de proteína.",
+        extradetail:"Las proteínas en estado puro son recomendadas para quienes buscan concentración máxima de proteína, sin importarles el sabor. Si bien tiene un sabor neutral, no es recomendado para quienes buscan una proteína que quede rica sólo con agua, ya que se obtiene su mejor sabor al mezclar con frutas o leches vegetales.",
     }, 
     {
         id: 6,
@@ -67,7 +76,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "arveja",
         tipo: "masa muscular",
-        img: './productos/nitropeacacao1kg01.png',
+        img: './assets/products/nitropeacacao1kg01.png',
         detail:
             "La versión sin sabor añadido de una de nuestras proteínas más aclamadas NitroPea. Esta versión natural contiene aún más proteína por porción y no contiene cacao, solo el sabor puro de la proteína de arveja ",
     },
@@ -79,7 +88,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "arroz",
         tipo: "masa muscular",
-        img: './productos/nitrorice1kg01.png',
+        img: './assets/products/nitrorice1kg01.png',
         detail:
             "La clasica NitroRice ahora sin sabor añadido y con más proteína por porción ¡25 grs! Más los 1000 mg de creatina y 300 mg de taurina en cada porción, con el sabor 100% natural del arroz",
     },
@@ -91,7 +100,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "arroz",
         tipo: "masa muscular",
-        img: './productos/nitroricecacao1kg01.png',
+        img: './assets/products/nitroricecacao1kg01.png',
         detail:
             "",
     },
@@ -103,7 +112,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "arroz",
         tipo: "masa muscular",
-        img: './productos/proteinaarrozlimon1kg01.png',
+        img: './assets/products/proteinaarrozlimon1kg01.png',
         detail:
             "",
     },
@@ -115,7 +124,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "arroz",
         tipo: "masa muscular",
-        img: './productos/proteinaarrozbanana1kg01.png',
+        img: './assets/products/proteinaarrozbanana1kg01.png',
         detail:
             "",
     },
@@ -127,7 +136,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "arroz",
         tipo: "masa muscular",
-        img: './productos/proteinaarrozcacao1kg01.png',
+        img: './assets/products/proteinaarrozcacao1kg01.png',
         detail:
             "",
     },
@@ -139,7 +148,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "arveja",
         tipo: "masa muscular",
-        img: './productos/proteinaarroznatural1kg01.png',
+        img: './assets/products/proteinaarroznatural1kg01.png',
         detail:
             "",
     },
@@ -151,7 +160,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "mung",
         tipo: "masa muscular",
-        img: './productos/nitromung1kg01.png',
+        img: './assets/products/nitromung1kg01.png',
         detail:
             "",
     },
@@ -163,7 +172,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "mung",
         tipo: "masa muscular",
-        img: './productos/proteinamunglimon1kg01.png',
+        img: './assets/products/proteinamunglimon1kg01.png',
         detail:
             "",
     },
@@ -175,7 +184,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "mung",
         tipo: "masa muscular",
-        img: './productos/nitromungcacao1kg01.png',
+        img: './assets/products/nitromungcacao1kg01.png',
         detail:
             "La proteína aislada de poroto mung se obtiene del poroto mung, sienda esta versión una mezcla del aislado proteíco del poroto con cacao natural, creatina y taurina Todos los productos Iron Plant son elaborados con las mejores materias primas sin ingredientes de origen animal. Formato: 1 Kilo / 33 porciones 20 gr de proteína por porció Ingredientes: Proteína aislada de poroto mung, cacao natural, sucralosa. Alérgenos: Elaborado en líneas que procesan soya. trigo, y cacao. Cantidad de sucralosa por porción 0.3 mg IDA 15 mg p/cada kg de peso ",
     },
@@ -187,7 +196,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "mung",
         tipo: "masa muscular",
-        img: './productos/proteinacacaomung1kg01.png',
+        img: './assets/products/proteinacacaomung1kg01.png',
         detail:
             "La proteína aislada de poroto mung se obtiene del poroto mung, sienda esta versión una mezcla del aislado proteíco del poroto con cacao natural. ",
     },
@@ -199,7 +208,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "mung",
         tipo: "masa muscular",
-        img: './productos/proteinamungnatural1kg01.png',
+        img: './assets/products/proteinamungnatural1kg01.png',
         detail:
             "",
     },
@@ -211,7 +220,7 @@ const data = [
         category: "proteinas vegetales",
         subcategory: "mung",
         tipo: "masa muscular",
-        img: './productos/proteinamungbanana1kg01.png',
+        img: './assets/products/proteinamungbanana1kg01.png',
         detail:
             "",
     },
@@ -230,7 +239,7 @@ const data = [
         category: "ganadores de peso",
         subcategory: "fava",
         tipo: "masa muscular",
-        img: './productos/monsterfavabanana4kg01.png',
+        img: './assets/products/monsterfavabanana4kg01.png',
         detail:
             "Por primera vez a base de Habas! El ganador de peso por excelencia de nuestra marca, una porción de 60 grs (6 cucharadas soperas) equivalen a un plato de 100 grs de legumbres, por lo que es un gran aliado para quienes necesitan comer más, o no quieren saltarse comidas, así como también aquellos que gustan de los deportes al aire libre y quieren llevar un alimento completo.",
     },
@@ -242,7 +251,7 @@ const data = [
         category: "ganadores de peso",
         subcategory: "fava",
         tipo: "masa muscular",
-        img: './productos/monsterfavacacao4kg01.png',
+        img: './assets/products/monsterfavacacao4kg01.png',
         detail:
             "Por primera vez a base de Habas! El ganador de peso por excelencia de nuestra marca, una porción de 60 grs (6 cucharadas soperas) equivalen a un plato de 100 grs de legumbres, por lo que es un gran aliado para quienes necesitan comer más, o no quieren saltarse comidas, así como también aquellos que gustan de los deportes al aire libre y quieren llevar un alimento completo.",
     },
@@ -254,7 +263,7 @@ const data = [
         category: "ganadores de peso",
         subcategory: "mung",
         tipo: "masa muscular",
-        img: './productos/monstermungbanana4kg01.png',
+        img: './assets/products/monstermungbanana4kg01.png',
         detail:
             "",
     },
@@ -266,7 +275,7 @@ const data = [
         category: "ganadores de peso",
         subcategory: "mung",
         tipo: "masa muscular",
-        img: './productos/monstermungcacao4kg01.png',
+        img: './assets/products/monstermungcacao4kg01.png',
         detail:
             "",
     },
@@ -278,7 +287,7 @@ const data = [
         category: "ganadores de peso",
         subcategory: "arroz",
         tipo: "masa muscular",
-        img: './productos/monsterricecacao4kg01.png',
+        img: './assets/products/monsterricecacao4kg01.png',
         detail:
             "",
     }
@@ -288,6 +297,14 @@ export default function getItems() {
     return new Promise((resolve, reject) => {
     setTimeout(() => {
         resolve(data);
+    }, 2000);
+    });
+}
+
+export function getSingleItem() {
+    return new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve(data[1]);
     }, 2000);
     });
 }

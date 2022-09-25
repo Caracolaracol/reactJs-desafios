@@ -2,7 +2,7 @@ import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
 import './Itemcount.css'
 import React, {useState} from 'react';
-
+import icon from '../../images/icons/addcart.png'
 let cartCount = 0
 
 function Itemcount(props) {
@@ -38,7 +38,7 @@ function Itemcount(props) {
             </div>
             <div className='item-count__add-container'>
                 <button className='item-count__btn-add' onClick={onAddToCart}>
-                    agregar al carrito
+                    <img className='item-count__cart-icon' src={icon} alt="carrito"/>agregar al carrito
                 </button>
             </div>
         </div>

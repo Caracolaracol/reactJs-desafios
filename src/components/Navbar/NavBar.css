@@ -67,3 +67,13 @@
     to { color: rgb(74, 158, 70);}
 }
 
+@media screen and (max-width: 1080px) {
+    .App-header__nav-container  {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 812px) {
+    .App-header__nav-container  {
+        display: none;
+    }
+}

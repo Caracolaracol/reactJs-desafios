@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import Item from "../Item/Item"
 import getItems from "../../services/mockAPI"
 
@@ -7,8 +7,7 @@ function Itemlist(){
     let [data, setData] = useState([])
     getItems().then( (respuestaDatos) => {
         setData(respuestaDatos) 
-        console.log(data)
-    }) 
+    })
 
 
     return(
